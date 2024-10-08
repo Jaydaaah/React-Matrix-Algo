@@ -13,7 +13,7 @@ export default function WelcomePage({ onClick = () => {} }) {
             <span className="text-sm fixed left-5 top-5 opacity-50 scale-75">
                 By: JD, Mica, Clarence
             </span>
-            <Card className=" w-96 flex flex-col items-center justify-between gap-5 h-72">
+            <Card className="w-96 flex flex-col items-center justify-between gap-5 h-72">
                 <div className="flex flex-col items-center gap-3">
                     <h1 className="text-7xl font-serif">Welcome</h1>
                     <span className="text-lg font-light">to</span>
