@@ -59,7 +59,7 @@ export function handFrac(n) {
     if (denominator == 1) {
         return `${n}`;
     } else if (denominator != 0) {
-        return convertFraction(numerator, denominator);
+        return `\\frac{${numerator}}{${denominator}}`;
     } else {
         `0`;
     }
