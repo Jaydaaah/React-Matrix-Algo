@@ -51,7 +51,7 @@ function App() {
                             disabled={disableSolveBTN}
                             onClick={() => setScreen(1)}
                         >
-                            Solve
+                            Next
                         </Button>
                     </div>
                 ) : (
