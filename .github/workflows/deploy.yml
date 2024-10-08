@@ -20,7 +20,7 @@ jobs:
           node-version: '16'  # Keep this as is
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v2  # Updated to v2
+        run: npm install  # Changed to npm install command
 
       - name: Build project
         run: npm run build
