@@ -40,7 +40,7 @@ export const convertToMathJaxEquation = (coefficients, constant) => {
             }
             const variable = `x_${index + 1}`; // Create variable names like x_1, x_2, ...
             return `${
-                coef !== 0
+                coef != 0
                     ? (coef > 0 ? "+" : "") + (coef != 1 ? coef : "") + variable
                     : ""
             }`;
